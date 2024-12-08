@@ -4,12 +4,12 @@ Projeto criado com as bibliotecas React JS e Material UI.
 
 ## Passo-a-passo para execução
 
-1. Clonar o repositório
-2. Localmente, entrar na pasta do projeto e instalar as dependências:
+1. Clonar o repositório: Ok Feito
+2. Localmente, entrar na pasta do projeto e instalar as dependências: OK Feito
    `
-   npm install
+   npm install: OK Feito
    `
-3. Executar a aplicação:
+3. Executar a aplicação: Ok Feito
    `
-   npm start
+   npm start: Ok Feito
    `
