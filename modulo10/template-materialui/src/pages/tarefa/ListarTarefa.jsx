@@ -85,23 +85,23 @@ const ListarTarefa = () => {
     <>
     <Card>
         <CardHeader
-          title="Tarefas"
-          subheader="Listagem de Tarefas"
+          title="Tarefas Cadastradas"
+          subheader="Listagem de todas as tarefas cadastradas"
         /> 
         <CardContent>
             <TableContainer component={Paper}>
             <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
                 <TableHead>
                 <TableRow>
-                    <TableCell>#</TableCell>
-                    <TableCell>Título</TableCell>
-                    <TableCell align="right">Descrição</TableCell>
-                    <TableCell align="right">Data de Início</TableCell>
-                    <TableCell align="right">Data de Finalização</TableCell>
-                    <TableCell align="right">Status</TableCell>
-                    <TableCell align="right">Recurso</TableCell>
-                    <TableCell align="left"></TableCell>
-                    <TableCell align="left"></TableCell>
+                    <TableCell>Nº</TableCell>
+                    <TableCell>TITULO</TableCell>
+                    <TableCell align="right">DESCRIÇÃO</TableCell>
+                    <TableCell align="right">DATA DE INICIO</TableCell>
+                    <TableCell align="right">DATA DE FINLIZAÇÃO</TableCell>
+                    <TableCell align="right">STATUS</TableCell>
+                    <TableCell align="right">RECURSO</TableCell>
+                    <TableCell align="center">EDITAR</TableCell>
+                    <TableCell align="center">EXCLUIR</TableCell>
                 </TableRow>
                 </TableHead>
                 <TableBody>
